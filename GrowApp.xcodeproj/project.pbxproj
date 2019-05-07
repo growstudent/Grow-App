@@ -8,22 +8,77 @@
 
 /* Begin PBXBuildFile section */
 		750F704121E2B5FF008B74C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F704021E2B5FF008B74C8 /* AppDelegate.swift */; };
-		750F704321E2B5FF008B74C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F704221E2B5FF008B74C8 /* ViewController.swift */; };
-		750F704621E2B5FF008B74C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750F704421E2B5FF008B74C8 /* Main.storyboard */; };
+		750F704321E2B5FF008B74C8 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F704221E2B5FF008B74C8 /* WelcomeController.swift */; };
 		750F704921E2B5FF008B74C8 /* GrowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 750F704721E2B5FF008B74C8 /* GrowApp.xcdatamodeld */; };
 		750F704B21E2B600008B74C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750F704A21E2B600008B74C8 /* Assets.xcassets */; };
 		750F704E21E2B600008B74C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750F704C21E2B600008B74C8 /* LaunchScreen.storyboard */; };
+		750F705721E2C168008B74C8 /* GALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F705621E2C168008B74C8 /* GALabel.swift */; };
+		750F705B21E2CD39008B74C8 /* Raleway-v4020-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 750F705A21E2CD39008B74C8 /* Raleway-v4020-Black.otf */; };
+		750F705D21E2D5CE008B74C8 /* GAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F705C21E2D5CE008B74C8 /* GAButton.swift */; };
+		750F706121E2DE76008B74C8 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F706021E2DE76008B74C8 /* BluetoothView.swift */; };
+		75166059223963BA00B631BD /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75166058223963BA00B631BD /* GraphView.swift */; };
+		7516607122396FC200B631BD /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7516606E22396FBA00B631BD /* Charts.framework */; };
+		7516607222396FC200B631BD /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7516606E22396FBA00B631BD /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		754A3B8721EF7C2900974395 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A3B8621EF7C2900974395 /* TableViewController.swift */; };
+		7599F6BA2209ECEB0094EC62 /* GATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599F6B92209ECEB0094EC62 /* GATableView.swift */; };
+		75F33D9A220C5CC7007DE0D9 /* GAHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D99220C5CC7007DE0D9 /* GAHeader.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7516606D22396FBA00B631BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7516606822396FB900B631BD /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		7516606F22396FBA00B631BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7516606822396FB900B631BD /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		7516607322396FC200B631BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7516606822396FB900B631BD /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7516607522396FC200B631BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7516607222396FC200B631BD /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		750F703D21E2B5FF008B74C8 /* GrowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		750F704021E2B5FF008B74C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		750F704221E2B5FF008B74C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		750F704521E2B5FF008B74C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		750F704221E2B5FF008B74C8 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		750F704821E2B5FF008B74C8 /* GrowApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrowApp.xcdatamodel; sourceTree = "<group>"; };
 		750F704A21E2B600008B74C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750F704D21E2B600008B74C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750F704F21E2B600008B74C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750F705621E2C168008B74C8 /* GALabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GALabel.swift; sourceTree = "<group>"; };
+		750F705A21E2CD39008B74C8 /* Raleway-v4020-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-Black.otf"; sourceTree = "<group>"; };
+		750F705C21E2D5CE008B74C8 /* GAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAButton.swift; sourceTree = "<group>"; };
+		750F706021E2DE76008B74C8 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		75166058223963BA00B631BD /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		7516606822396FB900B631BD /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		754A3B8621EF7C2900974395 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7599F6B92209ECEB0094EC62 /* GATableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATableView.swift; sourceTree = "<group>"; };
+		75F33D99220C5CC7007DE0D9 /* GAHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7516607122396FC200B631BD /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +96,7 @@
 		750F703421E2B5FF008B74C8 = {
 			isa = PBXGroup;
 			children = (
+				7516606822396FB900B631BD /* Charts.xcodeproj */,
 				750F703F21E2B5FF008B74C8 /* GrowApp */,
 				750F703E21E2B5FF008B74C8 /* Products */,
 			);
@@ -56,15 +113,55 @@
 		750F703F21E2B5FF008B74C8 /* GrowApp */ = {
 			isa = PBXGroup;
 			children = (
+				750F705921E2CB3E008B74C8 /* fonts */,
 				750F704021E2B5FF008B74C8 /* AppDelegate.swift */,
-				750F704221E2B5FF008B74C8 /* ViewController.swift */,
-				750F704421E2B5FF008B74C8 /* Main.storyboard */,
+				750F705821E2C4EE008B74C8 /* customs */,
+				750F705521E2BB0E008B74C8 /* views */,
 				750F704A21E2B600008B74C8 /* Assets.xcassets */,
 				750F704C21E2B600008B74C8 /* LaunchScreen.storyboard */,
 				750F704F21E2B600008B74C8 /* Info.plist */,
 				750F704721E2B5FF008B74C8 /* GrowApp.xcdatamodeld */,
 			);
 			path = GrowApp;
+			sourceTree = "<group>";
+		};
+		750F705521E2BB0E008B74C8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				750F704221E2B5FF008B74C8 /* WelcomeController.swift */,
+				750F706021E2DE76008B74C8 /* BluetoothView.swift */,
+				754A3B8621EF7C2900974395 /* TableViewController.swift */,
+				75166058223963BA00B631BD /* GraphView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		750F705821E2C4EE008B74C8 /* customs */ = {
+			isa = PBXGroup;
+			children = (
+				750F705621E2C168008B74C8 /* GALabel.swift */,
+				750F705C21E2D5CE008B74C8 /* GAButton.swift */,
+				7599F6B92209ECEB0094EC62 /* GATableView.swift */,
+				75F33D99220C5CC7007DE0D9 /* GAHeader.swift */,
+			);
+			path = customs;
+			sourceTree = "<group>";
+		};
+		750F705921E2CB3E008B74C8 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				750F705A21E2CD39008B74C8 /* Raleway-v4020-Black.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		7516606922396FB900B631BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7516606E22396FBA00B631BD /* Charts.framework */,
+				7516607022396FBA00B631BD /* ChartsTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,10 +174,12 @@
 				750F703921E2B5FF008B74C8 /* Sources */,
 				750F703A21E2B5FF008B74C8 /* Frameworks */,
 				750F703B21E2B5FF008B74C8 /* Resources */,
+				7516607522396FC200B631BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7516607422396FC200B631BD /* PBXTargetDependency */,
 			);
 			name = GrowApp;
 			productName = GrowApp;
@@ -113,6 +212,12 @@
 			mainGroup = 750F703421E2B5FF008B74C8;
 			productRefGroup = 750F703E21E2B5FF008B74C8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7516606922396FB900B631BD /* Products */;
+					ProjectRef = 7516606822396FB900B631BD /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				750F703C21E2B5FF008B74C8 /* GrowApp */,
@@ -120,14 +225,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7516606E22396FBA00B631BD /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 7516606D22396FBA00B631BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7516607022396FBA00B631BD /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 7516606F22396FBA00B631BD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		750F703B21E2B5FF008B74C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750F705B21E2CD39008B74C8 /* Raleway-v4020-Black.otf in Resources */,
 				750F704E21E2B600008B74C8 /* LaunchScreen.storyboard in Resources */,
 				750F704B21E2B600008B74C8 /* Assets.xcassets in Resources */,
-				750F704621E2B5FF008B74C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +260,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750F704321E2B5FF008B74C8 /* ViewController.swift in Sources */,
+				750F704321E2B5FF008B74C8 /* WelcomeController.swift in Sources */,
+				754A3B8721EF7C2900974395 /* TableViewController.swift in Sources */,
+				750F706121E2DE76008B74C8 /* BluetoothView.swift in Sources */,
+				750F705721E2C168008B74C8 /* GALabel.swift in Sources */,
 				750F704921E2B5FF008B74C8 /* GrowApp.xcdatamodeld in Sources */,
+				75166059223963BA00B631BD /* GraphView.swift in Sources */,
+				750F705D21E2D5CE008B74C8 /* GAButton.swift in Sources */,
+				75F33D9A220C5CC7007DE0D9 /* GAHeader.swift in Sources */,
 				750F704121E2B5FF008B74C8 /* AppDelegate.swift in Sources */,
+				7599F6BA2209ECEB0094EC62 /* GATableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		750F704421E2B5FF008B74C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				750F704521E2B5FF008B74C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		7516607422396FC200B631BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 7516607322396FC200B631BD /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		750F704C21E2B600008B74C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,10 +414,12 @@
 		750F705321E2B600008B74C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LL3MVC227;
 				INFOPLIST_FILE = GrowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,10 +434,12 @@
 		750F705421E2B600008B74C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LL3MVC227;
 				INFOPLIST_FILE = GrowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
