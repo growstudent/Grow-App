@@ -17,50 +17,27 @@
 		750F705D21E2D5CE008B74C8 /* GAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F705C21E2D5CE008B74C8 /* GAButton.swift */; };
 		750F706121E2DE76008B74C8 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750F706021E2DE76008B74C8 /* BluetoothView.swift */; };
 		75166059223963BA00B631BD /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75166058223963BA00B631BD /* GraphView.swift */; };
-		7516607122396FC200B631BD /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7516606E22396FBA00B631BD /* Charts.framework */; };
-		7516607222396FC200B631BD /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7516606E22396FBA00B631BD /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		754A3B8721EF7C2900974395 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754A3B8621EF7C2900974395 /* TableViewController.swift */; };
 		7599F6BA2209ECEB0094EC62 /* GATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599F6B92209ECEB0094EC62 /* GATableView.swift */; };
 		75F33D9A220C5CC7007DE0D9 /* GAHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D99220C5CC7007DE0D9 /* GAHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7516606D22396FBA00B631BD /* PBXContainerItemProxy */ = {
+		75BBDFB522843A03007D8313 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7516606822396FB900B631BD /* Charts.xcodeproj */;
+			containerPortal = 75BBDFB022843A03007D8313 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
 			remoteInfo = Charts;
 		};
-		7516606F22396FBA00B631BD /* PBXContainerItemProxy */ = {
+		75BBDFB722843A03007D8313 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7516606822396FB900B631BD /* Charts.xcodeproj */;
+			containerPortal = 75BBDFB022843A03007D8313 /* Charts.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
 			remoteInfo = ChartsTests;
 		};
-		7516607322396FC200B631BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7516606822396FB900B631BD /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A58A4ED274A941CA248EA921;
-			remoteInfo = Charts;
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7516607522396FC200B631BD /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7516607222396FC200B631BD /* Charts.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		750F703D21E2B5FF008B74C8 /* GrowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,9 +52,9 @@
 		750F705C21E2D5CE008B74C8 /* GAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAButton.swift; sourceTree = "<group>"; };
 		750F706021E2DE76008B74C8 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
 		75166058223963BA00B631BD /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
-		7516606822396FB900B631BD /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		754A3B8621EF7C2900974395 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7599F6B92209ECEB0094EC62 /* GATableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATableView.swift; sourceTree = "<group>"; };
+		75BBDFB022843A03007D8313 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		75F33D99220C5CC7007DE0D9 /* GAHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7516607122396FC200B631BD /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +72,7 @@
 		750F703421E2B5FF008B74C8 = {
 			isa = PBXGroup;
 			children = (
-				7516606822396FB900B631BD /* Charts.xcodeproj */,
+				75BBDFB022843A03007D8313 /* Charts.xcodeproj */,
 				750F703F21E2B5FF008B74C8 /* GrowApp */,
 				750F703E21E2B5FF008B74C8 /* Products */,
 			);
@@ -155,11 +131,11 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		7516606922396FB900B631BD /* Products */ = {
+		75BBDFB122843A03007D8313 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7516606E22396FBA00B631BD /* Charts.framework */,
-				7516607022396FBA00B631BD /* ChartsTests.xctest */,
+				75BBDFB622843A03007D8313 /* Charts.framework */,
+				75BBDFB822843A03007D8313 /* ChartsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,12 +150,10 @@
 				750F703921E2B5FF008B74C8 /* Sources */,
 				750F703A21E2B5FF008B74C8 /* Frameworks */,
 				750F703B21E2B5FF008B74C8 /* Resources */,
-				7516607522396FC200B631BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7516607422396FC200B631BD /* PBXTargetDependency */,
 			);
 			name = GrowApp;
 			productName = GrowApp;
@@ -214,8 +188,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 7516606922396FB900B631BD /* Products */;
-					ProjectRef = 7516606822396FB900B631BD /* Charts.xcodeproj */;
+					ProductGroup = 75BBDFB122843A03007D8313 /* Products */;
+					ProjectRef = 75BBDFB022843A03007D8313 /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -226,18 +200,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		7516606E22396FBA00B631BD /* Charts.framework */ = {
+		75BBDFB622843A03007D8313 /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = 7516606D22396FBA00B631BD /* PBXContainerItemProxy */;
+			remoteRef = 75BBDFB522843A03007D8313 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7516607022396FBA00B631BD /* ChartsTests.xctest */ = {
+		75BBDFB822843A03007D8313 /* ChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChartsTests.xctest;
-			remoteRef = 7516606F22396FBA00B631BD /* PBXContainerItemProxy */;
+			remoteRef = 75BBDFB722843A03007D8313 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -274,14 +248,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7516607422396FC200B631BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			targetProxy = 7516607322396FC200B631BD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		750F704C21E2B600008B74C8 /* LaunchScreen.storyboard */ = {
@@ -414,7 +380,6 @@
 		750F705321E2B600008B74C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LL3MVC227;
@@ -434,7 +399,6 @@
 		750F705421E2B600008B74C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LL3MVC227;
